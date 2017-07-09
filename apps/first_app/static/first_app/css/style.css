@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 *{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 00px;
     margin: 0px;
 }
 body {
     background: lightblue;
+    padding: 20px;
 }
 #all_books{
     background: lightgray;
@@ -14,11 +16,13 @@ body {
     width: 200px;
     border: 2px solid black;
     vertical-align: top;
+    font-size: larger
 }
 #recent_reviews{
     background: lightgray;
     display: inline-block;
     border: 2px solid black;
+    font-size: larger
 }
 #star {
     width: 30px;
@@ -33,5 +37,9 @@ hr {
 .container{
     width: 80%;
     margin: 20px auto;
+    font-size: larger
 
+}
+input, button {
+  font-size: 1.3em;
 }
