@@ -52,6 +52,8 @@
 
     .container {
       padding: 16px;
+      width: 50%;
+      margin: 0px auto;
     }
     /* Clear floats */
 
@@ -70,10 +72,10 @@
     }
 
     @media only screen and (max-width: 480px) {
-      body {
-        width: 100% !important;
-        /*font-size: larger !important;*/
-        margin: 0px auto;
+      body, .container {
+        width: 90% !important;
+        /* font-size: larger !important; */
+        margin: 10px auto;
       }
       .cancelbtn,
       .signupbtn {
